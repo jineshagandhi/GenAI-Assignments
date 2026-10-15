@@ -1,0 +1,5 @@
+Article:
+Generative Artificial Intelligence refers to models that can create new content such as text, images, audio, code and video. Unlike traditional AI systems that only classify or predict, generative models learn the patterns of their training data and use them to produce new samples. Popular examples include large language models like GPT and Llama, image generators like Stable Diffusion, and code assistants. Hugging Face Spaces allows developers to host demos of these models so that anyone can try them in a web browser without installing anything. While generative AI improves productivity in education, healthcare and software development, it also raises concerns about misinformation, bias and copyright, so its outputs must be checked carefully before use.
+
+Summary:
+Generative Artificial Intelligence refers to models that can create new content such as text, images, audio, code and video . Popular examples include large language models like GPT and Llama, image generators like Stable Diffusion and code assistants .

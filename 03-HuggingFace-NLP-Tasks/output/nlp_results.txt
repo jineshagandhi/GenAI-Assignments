@@ -1,0 +1,56 @@
+============================================================
+Task: Sentiment Analysis
+Input: I really enjoyed this lab, the Hugging Face pipelines are very easy to use!
+Output:
+Label: POSITIVE
+Confidence: 0.9998
+
+============================================================
+Task: Named Entity Recognition
+Input: Hugging Face is a company based in New York City that develops tools for building machine learning applications. Its Transformers library provides thousands of pretrained models for tasks such as text classification, question answering, summarization and translation. Clement Delangue, Julien Chaumond and Thomas Wolf founded the company in 2016. Today, researchers and developers around the world use the Hugging Face Hub to share models, datasets and demo applications.
+Output:
+Hugging Face -> ORG (0.9662)
+New York City -> LOC (0.9995)
+Transformers -> ORG (0.9896)
+Clement Delangue -> PER (0.9922)
+Julien Chaumond -> PER (0.9914)
+Thomas Wolf -> PER (0.9997)
+Hu -> MISC (0.8065)
+Face -> ORG (0.6522)
+
+============================================================
+Task: Question Answering
+Input: Hugging Face is a company based in New York City that develops tools for building machine learning applications. Its Transformers library provides thousands of pretrained models for tasks such as text classification, question answering, summarization and translation. Clement Delangue, Julien Chaumond and Thomas Wolf founded the company in 2016. Today, researchers and developers around the world use the Hugging Face Hub to share models, datasets and demo applications.
+Question: Who founded Hugging Face?
+Output:
+Answer: Clement Delangue, Julien Chaumond and Thomas Wolf
+Confidence: 0.8322
+
+============================================================
+Task: Summarization
+Input: Hugging Face is a company based in New York City that develops tools for building machine learning applications. Its Transformers library provides thousands of pretrained models for tasks such as text classification, question answering, summarization and translation. Clement Delangue, Julien Chaumond and Thomas Wolf founded the company in 2016. Today, researchers and developers around the world use the Hugging Face Hub to share models, datasets and demo applications.
+Output:
+Hugging Face is a company based in New York City that develops tools for building machine learning applications . Its Transformers library provides thousands of pretrained models for tasks such as text classification, question answering, summarization and translation .
+
+============================================================
+Task: Translation (English to French)
+Input: Generative AI can create new text, images and music.
+Output:
+French: L'IA generative peut créer de nouveaux textes, des images et de la musique.
+
+============================================================
+Task: Text Generation
+Input: Generative Artificial Intelligence is
+Output:
+Generative Artificial Intelligence is a unique technology that allows humans to understand and understand how things are being done, and what is in common with any other technology, which is a unique way to find and process things.
+
+============================================================
+Task: Fill-Mask
+Input: Hugging Face provides [MASK] models for NLP tasks.
+Output:
+hugging face provides graphical models for nlp tasks. (0.0627)
+hugging face provides simulation models for nlp tasks. (0.0242)
+hugging face provides dynamic models for nlp tasks. (0.0232)
+hugging face provides modeling models for nlp tasks. (0.0225)
+hugging face provides interactive models for nlp tasks. (0.0215)
+
